@@ -64,7 +64,7 @@ class ArticuloController extends Controller
         $articulos->caducado = $request->get('caducado');
 
         $articulos->save();
-        return view('articulo.index');
+        return redirect('/articulos');
         
     }
 
@@ -111,7 +111,7 @@ class ArticuloController extends Controller
         $articulo->disponible = $request->get('disponible');
 
         $articulo->save();
-        return view('articulo.index');
+        return redirect('/articulos');
     }
 
     /**
@@ -123,7 +123,9 @@ class ArticuloController extends Controller
     public function destroy($id)
     {
 
-     
+        if (!Gate::allows('Admin')) {
+            abort(403);
+        }
 
 
         $articulo = Articulo::find($id);

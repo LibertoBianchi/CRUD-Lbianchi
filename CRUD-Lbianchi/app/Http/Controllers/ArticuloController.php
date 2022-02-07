@@ -64,7 +64,7 @@ class ArticuloController extends Controller
         $articulos->caducado = $request->get('caducado');
 
         $articulos->save();
-        return redirect('/proyectos/CRUD-Lbianchi/CRUD-Lbianchi/public/articulos');
+        return view('articulo.index');
         
     }
 
@@ -111,7 +111,7 @@ class ArticuloController extends Controller
         $articulo->disponible = $request->get('disponible');
 
         $articulo->save();
-        return redirect('/proyectos/CRUD-Lbianchi/CRUD-Lbianchi/public/articulos');
+        return view('articulo.index');
     }
 
     /**

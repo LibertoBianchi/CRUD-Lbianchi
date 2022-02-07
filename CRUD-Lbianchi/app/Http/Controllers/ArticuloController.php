@@ -123,9 +123,6 @@ class ArticuloController extends Controller
     public function destroy($id)
     {
 
-        if (!Gate::allows('Admin')) {
-            abort(403);
-        }
 
 
         $articulo = Articulo::find($id);

@@ -38,7 +38,7 @@ class ArticuloController extends Controller
      */
     public function create()
     {
-        return redirect('/proyectos/CRUD-Lbianchi/CRUD-Lbianchi/public/articulos');
+        return view('articulo.create');
     }
 
     /**

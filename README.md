@@ -1,9 +1,11 @@
 # CRUD-Lbianchi
-## Faltan parcialmente algunos apartados como por ejemplo, no están todos los tipos de imputs, las gates para denegar permiso al admin, entre otras carencias, pese a esto, funciona y se debería poder usar pese a algunas carencias.
+## Faltan parcialmente algunos apartados como por ejemplo, no están todos los tipos de imputs, las gates para denegar permiso al admin,@lang esta creado pero no supe como se implementaba, entre otras carencias, pese a esto, funciona y se debería poder usar pese a algunas carencias.
 # Usuario
 ## Para logearte desde dashboard el usuario sería admin@gmail.com y su contraseña "admin123"
 # URL
 ## http://lbianchi.ifc33b.cifpfbmoll.eu/proyectos/CRUD-Lbianchi/CRUD-Lbianchi/public/
+# Aviso
+## He tenido una confusión con las url y no he sabido como arreglarlas, por lo tanto, al crear o editar datos de la tabla dará un error 404 ya que no encontrará dicha url. Por eso mismo, si quieres ver esa funcionalidad tal y como tendría que ser, abrelo en local, ya sea en xampp, wamp, etcetera. Y todo debería funcionar según lo esperado, gracias
 # .env
 ## En caso de que quieras correr el zip en local el archivo .env sería el siguiente :
 

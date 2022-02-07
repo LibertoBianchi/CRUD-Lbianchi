@@ -1,5 +1,7 @@
 # CRUD-Lbianchi
 ## Faltan parcialmente algunos apartados como por ejemplo, no están todos los tipos de imputs, las gates para denegar permiso al admin,@lang esta creado pero no supe como se implementaba, entre otras carencias, pese a esto, funciona y se debería poder usar pese a algunas carencias.
+# Link al repo
+https://github.com/LibertoBianchi/CRUD-Lbianchi
 # Usuario
 ## Para logearte desde dashboard el usuario sería admin@gmail.com y su contraseña "admin123"
 # URL

@@ -26,7 +26,7 @@
     <input id="fechaCaducidad" name="fechaCaducidad" type="date" class="form-control" tabindex="5" value ="{{$articulo->fechaCaducidad}}" required>
   </div>
   
-  <a href="/articulos" class="btn btn-secondary">Cancelar</a>
+  <a href="/proyectos/CRUD-Lbianchi/CRUD-Lbianchi/public/articulos" class="btn btn-secondary">Cancelar</a>
   <button type="submit" class="btn btn-primary">Guardar</button>
 </form>
 
